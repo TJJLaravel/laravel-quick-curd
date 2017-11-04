@@ -2,6 +2,6 @@
 namespace YawningCat\CodeGeneration\Test;
 class Test {
 	static function test() {
-		echo 123;
+		echo 1234;
 	}
 }

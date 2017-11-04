@@ -10,7 +10,7 @@
 	"autoload" : {
 		"psr-4" : {
 			"YawningCat\\CodeGeneration\\" : "vendor/yawning-cat/code-generation/src/",
-			"YawningCat\\code-generation\\Test\\" : "vendor/yawning-cat/code-generation/test/"
+			"YawningCat\\CodeGeneration\\Test\\" : "vendor/yawning-cat/code-generation/test/"
 		}
 	}
 }
