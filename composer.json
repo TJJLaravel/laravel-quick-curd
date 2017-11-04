@@ -1,12 +1,16 @@
 {
-    "name": "yawning-cat/code-generation",
-    "type": "dev",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "tangjiajia",
-            "email": "584231366@qq.com"
-        }
-    ],
-    "require": {}
+	"name" : "yawning-cat/code-generation",
+	"type" : "dev",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "tangjiajia",
+			"email" : "584231366@qq.com"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"YawningCat\\CodeGeneration\\" : "vendor/yawning-cat/code-generation/src/",
+			"YawningCat\\code-generation\\Test\\" : "vendor/yawning-cat/code-generation/test/"
+		}
+	}
 }
