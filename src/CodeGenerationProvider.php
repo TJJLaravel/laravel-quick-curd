@@ -17,6 +17,13 @@ class CodeGenerationProvider extends ServiceProvider
      */
     public function boot()
     {
+    	$this->loadViewsFrom(__DIR__.'/pattern', 'YawiningCatCG/pattern');
+    	$this->mergeConfigFrom(__DIR__.'/YawiningCatCG.php', 'YawiningCatCG');
+    	$this->publishes([
+    		__DIR__.'/YawiningCatCG.php' => config_path('YawiningCatCG.php'),
+    		__DIR__.'/pattern' => base_path('resources/views/vendor/YawiningCatCG/pattern'),
+    		__DIR__.'/data' => base_path('resources/views/vendor/YawiningCatCG/data'),
+    	]);
     	$this->commands([
     		Commands\CGCommand::class
     	]);
