@@ -1,6 +1,6 @@
 {
 	"name" : "yawning-cat/code-generation",
-	"type" : "dev",
+	"type" : "module",
 	"license" : "MIT",
 	"authors" : [{
 			"name" : "tangjiajia",
