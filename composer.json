@@ -12,5 +12,12 @@
 			"YawningCat\\CodeGeneration\\" : "src/",
 			"YawningCat\\CodeGeneration\\Test\\" : "test/"
 		}
+	},
+	"extra": {
+	    "laravel": {
+		"providers": [
+		    "YawningCat\\CodeGeneration\\CodeGenerationProvider"
+		]
+	    }
 	}
 }
